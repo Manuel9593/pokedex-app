@@ -1,12 +1,9 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import { PokedexNavbar } from '@manuel-workspace/shared-ui';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="pokedex2" />
+      <PokedexNavbar />
     </div>
   );
 }
