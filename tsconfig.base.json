@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@manuel-workspace/pokemon-appTypes": [
+        "pokedex/pokemon-appTypes/src/index.ts"
+      ],
+      "@manuel-workspace/shared-types": ["shared-types/src/index.ts"],
+      "@manuel-workspace/shared-ui": ["shared-ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

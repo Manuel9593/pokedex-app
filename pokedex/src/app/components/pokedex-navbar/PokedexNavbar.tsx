@@ -1,9 +1,6 @@
 import styles from './PokedexNavbar.module.css';
 
-/* eslint-disable-next-line */
-export interface PokedexNavbarProps {}
-
-export function PokedexNavbar(props: PokedexNavbarProps) {
+export function PokedexNavbar() {
   return (
     <header>
       <div className={styles['header']}>
