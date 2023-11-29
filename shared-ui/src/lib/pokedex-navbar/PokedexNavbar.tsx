@@ -1,4 +1,4 @@
-import { Container } from '@chakra-ui/react';
+import { Container, Heading } from '@chakra-ui/react';
 
 export function PokedexNavbar() {
   return (
@@ -6,7 +6,7 @@ export function PokedexNavbar() {
     centerContent={true}
     backgroundColor="red"
     textColor={"white"}>
-      <h1>Manuel Parra Rodriguez</h1>
+      <Heading>Manuel Parra Rodriguez</Heading>
     </Container>
   );
 }

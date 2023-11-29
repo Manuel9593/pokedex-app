@@ -18,9 +18,8 @@ function renderPokeCard(pokemon: PokemonType): JSX.Element{
 
 export function PokeStore({ pokemon_list } : PokeStoreProps) {
     return (
-        <Container centerContent={true} padding={3}>
+        <Container size={'md'}>
             <SimpleGrid
-            minChildWidth={'200px'}
             gap={3}>
                 { pokemon_list.map(pokemon => renderPokeCard(pokemon)) }
             </SimpleGrid>

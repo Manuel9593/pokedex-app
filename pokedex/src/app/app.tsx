@@ -1,12 +1,14 @@
+import { Container } from '@chakra-ui/react';
 import  pokemon_list from './pokemon-list.json'
-import { PokedexNavbar, PokeStore } from '@manuel-workspace/shared-ui'
+import { PokedexNavbar, PokeStore, PokeTrainer } from '@manuel-workspace/shared-ui'
 
 export function App() {
   return (
-    <div>
+    <>
       <PokedexNavbar />
+      <PokeTrainer />
       <PokeStore pokemon_list={pokemon_list} />
-    </div>
+    </>
   );
 }
 
